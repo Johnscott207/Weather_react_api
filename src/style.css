@@ -1,0 +1,188 @@
+body {
+
+    background-color: #ffffff;
+    background-image: url("Img/pexels-brett-sayles-1431822.jpg");
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.hello {
+    width: 100%;
+    margin-top: 2em;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    font-size: 25px;
+    text-shadow: 30px 30px 10px gray;
+    text-decoration: none;
+}
+
+
+h1 {
+    color: white;
+    font-size: 40px;
+    text-shadow: 30px 30px 10px gray;
+}
+
+input {
+    width: 300px;
+    outline: none;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid skyblue;
+    text-align: center;
+    color: #666;
+    font-size: 20px;
+}
+
+input::placeholder {
+    color: #ddd;
+}
+
+
+button {
+    margin-top: 10px;
+    width: 270px;
+    outline: none;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid skyblue;
+    text-align: center;
+    color: skyblue;
+    background-color: #444;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #222;
+}
+
+input::placeholder {
+    color: #ddd;
+}
+
+.card {
+    width: 250px;
+    height: 250px;
+    border: 1px solid skyblue;
+    display: none;
+    left: 0;
+    right: 0;
+    color: white;
+    box-shadow: 2px 2px 5px skyblue;
+    font-weight: bold;
+    backdrop-filter: blur(3px);
+    border-radius: 5px;
+    text-align: left;
+    margin: auto;
+}
+
+.card .name {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.card .temp {
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 27px;
+    font-size: 90px;
+}
+
+.card .feelslike {
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 128px;
+    font-size: 20px;
+}
+
+.card .wind {
+    position: absolute;
+    margin-left: -90px;
+    margin-top: 125px;
+    font-size: 18px;
+}
+
+.card .wind img {
+    width: 60px;
+    height: 50px;
+
+}
+
+.card .wind span {
+    position: absolute;
+    margin-left: 0px;
+    margin-top: 50px;
+    font-size: 15px;
+    display: inline;
+}
+
+.card .wind_dir {
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 175px;
+    font-size: 18px;
+}
+
+.card .wind_deg {
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 175px;
+    font-size: 15px;
+}
+
+.card .uv {
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 200px;
+    font-size: 15px;
+}
+
+.card .visi {
+    position: absolute;
+    margin-left: -10px;
+    margin-top: 200px;
+    font-size: 15px;
+}
+
+.card .desc {
+    position: absolute;
+    margin-left: -90px;
+    margin-top: 130px;
+    font-size: 12px;
+    width: 100px;
+    /*background:red;*/
+}
+
+
+.card img {
+    border-radius: 5px;
+    margin: 10px;
+    margin-top: 45px;
+    width: 80px;
+    opacity: 60%;
+}
+
+/* Historical */
+.Historical{
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color: url("Img/thunderstorm-3625405_1920.jpg");
+}
+
+#history{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    overflow: auto;
+
+}
